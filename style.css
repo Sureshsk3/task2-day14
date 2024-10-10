@@ -1,0 +1,61 @@
+.card {
+  width: fit-content;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 20px 10px black;
+  background-color: aqua !important;
+}
+.heading {
+  text-align: center;
+  color: brown;
+  margin: 25px;
+  text-transform: uppercase;
+}
+.form-container {
+  display: grid;
+  padding: 10px;
+}
+.form-container input {
+  width: 300px;
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+.form-container button {
+  width: fit-content;
+  float: inline-end;
+  justify-content: end;
+  align-items: end;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: red;
+  margin: 15px;
+  text-transform: uppercase;
+}
+.table {
+  margin-top: 5%;
+  text-align: center;
+}
+.table th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: aliceblue;
+  background-color: cadetblue;
+  border: 3px solid black;
+}
+.table td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(142, 153, 153);
+  border: 3px solid black;
+}
+@media screen and (max-width: 600px) {
+  .table {
+    font-size: small;
+  }
+  .table thead {
+    width: fit-content;
+  }
+}
